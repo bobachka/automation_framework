@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Acceptance suite">
     <listeners>
-        <listener class-name="org.example.core.common.AnnotationTransformer"/>
+        <!--listener class-name="org.example.core.common.AnnotationTransformer"/-->
     </listeners>
-    <test verbose="2" name="Search test">
+    <test verbose="2" name="PracticalTask2506 tests">
         <classes>
-            <class name="project.org.example.functional.tests.LamodaSearchTest"/>
+            <class name="project.org.example.functional.tests.PracticalTask2506"/>
         </classes>
     </test>
 </suite>
